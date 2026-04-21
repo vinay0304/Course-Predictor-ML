@@ -9,7 +9,7 @@ courses_confidence_dataframe = pd.DataFrame(columns=['Name', 'Confidence'])
 def intro():
     import streamlit as st
 
-    st.write("# Welcome to UMBC Course Recommender! 👋")
+    st.write("# Welcome to UMBC Course Recommender!! 👋")
     st.sidebar.success("Select a tool above.")
 
     st.markdown(
